@@ -1,0 +1,2 @@
+# rePDE
+Implementation of my investigation into reparametrized partial differential equations: Instead of using complicated adaptive mesh refinement techniques to resole numerical difficulties surrounding regions where a PDE is "badly behaved", we rather reparametrize the whole domain before discretization, such that the problem may be solved by simple linear FE-methods on simple domains with a uniform element size.
